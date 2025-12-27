@@ -1,0 +1,250 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    width: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* BUTTONS */
+.btn-outline {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-filled {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-outline-white {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-outline2,
+.btn-outline3,
+.outline4,
+.outline5 {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.btn-outline2:hover {
+    background-color:#00563f
+    color: #fff;
+}
+.btn-outline3:hover{
+    background-color:#610b0b
+    color:#fff;
+}
+
+
+.outline4:hover,
+.outline5:hover {
+    background-color: #232222;
+    color: #fff;
+}
+
+
+/* GREEN STRIP */
+.banner {
+    background-color: #32462f;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+}
+
+/* GIFT SECTION - 50/50 SPLIT */
+.gift-section {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+    margin-bottom: 32px;
+}
+
+.gift-section:last-child {
+    margin-bottom: 0;
+}
+
+/* IMAGE BLOCKS - Consolidated */
+.gift-image,
+.gift-img2,
+.gift-img3,
+.gift-img4,
+.gift-img5 {
+    flex: 1;
+    min-width: 0; /* Important: allows flex items to shrink below content size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f3f1e7;
+}
+
+.gift-image img,
+.gift-img2 img,
+.gift-img3 img,
+.gift-img4 img,
+.gift-img5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* CONTENT BLOCKS - Consolidated */
+.gift-content,
+.gift2-content,
+.gift3-content {
+    flex: 1;
+    min-width: 0; /* Important: allows flex items to shrink below content size */
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #a61d2d;
+    color: #fff;
+}
+
+.gift4-content {
+    flex: 1;
+    min-width: 0;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #1e3932;
+    color: #fff;
+}
+
+.gift5-content {
+    flex: 1;
+    min-width: 0;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #00563f;
+    color: #fff;
+}
+
+.gift-content h2,
+.gift2-content h2,
+.gift3-content h2,
+.gift4-content h2,
+.gift5-content h2 {
+    font-size: 50px;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.gift-content p,
+.gift2-content p,
+.gift3-content p,
+.gift4-content p,
+.gift5-content p {
+    font-size: 24px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.gift5-content .outline5 {
+    border-color: #fff;
+    color: #fff;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .gift-section {
+        flex-direction: column;
+    }
+    
+    .gift-content,
+    .gift2-content,
+    .gift3-content,
+    .gift4-content,
+    .gift5-content {
+        padding: 40px 30px;
+    }
+    
+    .gift-content h2,
+    .gift2-content h2,
+    .gift3-content h2,
+    .gift4-content h2,
+    .gift5-content h2 {
+        font-size: 36px;
+    }
+    
+    .gift-content p,
+    .gift2-content p,
+    .gift3-content p,
+    .gift4-content p,
+    .gift5-content p {
+        font-size: 18px;
+    }
+}
