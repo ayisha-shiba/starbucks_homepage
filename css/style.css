@@ -81,17 +81,24 @@ nav a {
     cursor: pointer;
     
 }
-.btn-outline2:hover {
+.btn-outline1:hover {
     background-color:#00563f;
     color: #fff;
 }
+.btn-outline2:hover {
+    background-color:00563f;
+    color: #fff;
+}
 .btn-outline3:hover{
-    background-color:#610b0b;
+    background-color:#00563f;
     color:#fff;
 }
 
 
-.outline4:hover,
+.outline4:hover{
+    background-color: #aa1d38;
+    color: #fff;
+}
 .outline5:hover {
     background-color: #232222;
     color: #fff;
@@ -158,7 +165,7 @@ nav a {
     align-items: center;
     text-align: center;
     gap: 20px;
-    background-color: #a61d2d;
+    background-color: #006241;
     color: #fff;
 }
 
@@ -172,7 +179,7 @@ nav a {
     align-items: center;
     text-align: center;
     gap: 20px;
-    background-color: #1e3932;
+    background-color: #aa1d38;
     color: #fff;
 }
 
