@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* NAVBAR */
+
 .navbar {
     display: flex;
     justify-content:space-between;
@@ -42,8 +42,6 @@ nav a {
     text-decoration: none;
     color: #000;
 }
-
-/* BUTTONS */
 .btn-outline {
     background: transparent;
     border: 1px solid #000;
@@ -105,7 +103,6 @@ nav a {
 }
 
 
-/* GREEN STRIP */
 .banner {
     background-color: #32462f;
     color: #fff;
